@@ -1,0 +1,12 @@
+import random
+
+
+
+print("Digite um número entre 1 e 10:")
+numero=int(input(""))
+
+
+resposta=random.randrange(1,10)
+
+print("Seu número:{}".format(numero))
+print("Número sorteado pelo sistema:{}".format(resposta))
