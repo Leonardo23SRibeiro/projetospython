@@ -1,12 +1,17 @@
-import random
+
+
+import random      #( Importe a biblioteca RANDOM) ela já vem inclusa na instalação do Python ).
 
 
 
-print("Digite um número entre 1 e 10:")
-numero=int(input(""))
+print("Digite um número entre 1 e 10:")    <<  #( Coleta do número que o usuário irá digitar ).
+numero=int(input(""))                      <<  #( A variável só poderá aceitar núemros do tipo inteiro ).
 
 
-resposta=random.randrange(1,10)
+resposta=random.randrange(1,10)            <<  #( random.randrange gera os números aleatórios entre 1 e 10 ).
 
-print("Seu número:{}".format(numero))
-print("Número sorteado pelo sistema:{}".format(resposta))
+
+
+print("Seu número:{}".format(numero))      <<                  #( .format checa a existência de dados na variável número e exibe na tela ).
+
+print("Número sorteado pelo sistema:{}".format(resposta))     << #( Exibição do resultado da função random.randrange ).
