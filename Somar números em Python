@@ -1,0 +1,16 @@
+# PROGRAMA QUE LÊ DOIS  NÚMEROS INTEIROS E RETORNA A SOMA DESSES DOIS NÚMEROS INTEIROS
+
+
+
+
+print("DIGITE UM NÚMERO INTEIRO: ")
+n1 = int(input(""))                            // MÉTODO PARA COLETAR OS DADOS QUE O USUÁRIO IRÁ DIGITAR //
+print("DIGITE OUTRO NÚMERO INTEIRO:  ")
+n2 = int(input(""))
+
+soma = n1 + n2                                // VARIÁVEL QUE IRÁ PROCESSAR O CÁLCULO DA SOMA //
+
+
+print(" O RESULTADO DA SOMA É: {}".format(soma))      // MÉTODO PARA EXIBIR O RESULTADO DA SOMA DOS DOIS NÚMEROS
+
+# By LEONARDO S. RIBEIRO
