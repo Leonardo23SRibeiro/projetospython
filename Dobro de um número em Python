@@ -1,0 +1,14 @@
+# PROGRAMA QUE LÊ UM NÚMERO E EXIBE O DOBRO DELE.
+
+
+print("DIGITE UM NÚMERO INTEIRO: ")            // MÉTODO PARA COLETAR OS DADOS DO USUÁRIO //
+n1 = int(input(""))                            // VARIÁVEL QUE ARMAZENARÁ O DADO // 
+
+
+dobro = n1 * 2                                // VARIÁVEL QUE IRÁ CALCULAR O DOBRO //
+
+
+print("O DOBRO DESTE NÚMERO É: {}".format(dobro))      // MÉTODO PARA EXIBIR O RESULTADO DA VARIÁVEL " DOBRO" //
+
+
+# By LEONARDO S. RIBEIRO
